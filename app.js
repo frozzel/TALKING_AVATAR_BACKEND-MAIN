@@ -68,8 +68,9 @@ var server = http.createServer(app);
 server.listen(PORT,  () => {// start express server on port 8080
   console.log(`................................................`)
   console.log(`🚀  Server running on http://localhost:${PORT}, 🚀`)
-  console.log(`...............................................`)
-  console.log(`...............Starting Database...............`)
+  console.log(`................................................`)
+  console.log(`🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀`)
+  console.log(`................................................`)
  
   
 })
