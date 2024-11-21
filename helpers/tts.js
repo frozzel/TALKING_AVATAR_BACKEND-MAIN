@@ -74,7 +74,7 @@ const textToSpeech = async (text, voice)=> {
         synthesizer.speakSsmlAsync(
             ssml,
             result => {
-                
+                console.log('working')
                 synthesizer.close();
                 resolve({blendData, filename: `/speech-${randomString}.mp3`});
 
